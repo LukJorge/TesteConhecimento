@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteFCamara", "testefcamara\TesteFCamara.csproj", "{0433D89B-299E-4C61-A651-701D57628E30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteFCamara.Client", "TesteFCamara.Client\TesteFCamara.Client.csproj", "{5D77AEC3-4ED9-41ED-A358-DB80F4946C7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2BDF59C4-F9F0-4DD6-A0C8-BE8DB1723B58}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Users\LS0976919149\source\repos\IdentityOficial\global.json = ..\..\Users\LS0976919149\source\repos\IdentityOficial\global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0433D89B-299E-4C61-A651-701D57628E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0433D89B-299E-4C61-A651-701D57628E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0433D89B-299E-4C61-A651-701D57628E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0433D89B-299E-4C61-A651-701D57628E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D77AEC3-4ED9-41ED-A358-DB80F4946C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D77AEC3-4ED9-41ED-A358-DB80F4946C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D77AEC3-4ED9-41ED-A358-DB80F4946C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D77AEC3-4ED9-41ED-A358-DB80F4946C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF683100-5FD2-41BC-93B5-25F752E39B01}
+	EndGlobalSection
+EndGlobal
