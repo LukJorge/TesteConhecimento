@@ -36,7 +36,22 @@ namespace TesteFCamara.Client
             }
             Console.WriteLine(tokenResponse.Json);
 
-            await EstabelecimentoEndpoints.Editar(tokenResponse);
+            //Chamada estabelecimento
+            //await EstabelecimentoEndpoints.Cadastrar(tokenResponse);
+            //await EstabelecimentoEndpoints.Listar(tokenResponse);
+            //await EstabelecimentoEndpoints.Editar(tokenResponse);
+            //await EstabelecimentoEndpoints.Remover(tokenResponse);
+
+            //Chamada controle de veiculos
+            //await ControleDeVeiculosEndpoints.BuscarVeiculo(tokenResponse);
+            //await ControleDeVeiculosEndpoints.Entrada(tokenResponse);
+            //await ControleDeVeiculosEndpoints.Saida(tokenResponse);
+
+            //Chamada veiculo
+            //await VeiculoEndpoints.Cadastrar(tokenResponse);
+            //await VeiculoEndpoints.Listar(tokenResponse);
+            //await VeiculoEndpoints.Editar(tokenResponse);
+            //await VeiculoEndpoints.Remover(tokenResponse);
         }
     }
 }

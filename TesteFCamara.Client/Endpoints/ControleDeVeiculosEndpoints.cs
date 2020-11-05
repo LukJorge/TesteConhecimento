@@ -52,7 +52,7 @@ namespace TesteFCamara.Client.Endpoints
             Console.WriteLine(response.StatusCode);
         }
 
-        public static async Task Editar(TokenResponse tokenResponse)
+        public static async Task Saida(TokenResponse tokenResponse)
         {
             var apiClient = new HttpClient();
             apiClient.SetBearerToken(tokenResponse.AccessToken);
